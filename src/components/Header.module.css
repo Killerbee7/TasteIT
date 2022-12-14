@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+
+    
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    
+}
