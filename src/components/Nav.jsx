@@ -7,8 +7,8 @@ const Nav = () => {
         <nav className={classes.nav}>
             <ul>
                 <li><NavLink to="/" >Add Recipe</NavLink></li>
-                <li><NavLink to="recipe">Recipes</NavLink></li>
-                <li><NavLink to="about">About</NavLink></li>
+                <li><NavLink to="recipe">Browse Recipes</NavLink></li>
+                <li><NavLink to="about">About Taste IT</NavLink></li>
             </ul>
         </nav>
     );
