@@ -7,7 +7,7 @@ body {
   
   main {
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 1rem 0;
     width: 90%;
     max-width: 60rem;
   }
@@ -19,8 +19,8 @@ body {
     background-color: hsl(0, 0%, 100%);
     border: 4px solid hsl(0, 0%, 90%);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem;
   }
   
   .full-width {
@@ -31,6 +31,47 @@ body {
     min-height: 10rem;
   }
 
-  select{
-    background-image: url(../images/down-arrow.svg) no-repeat center right 0.75rem;
+
+  button {
+    margin-top: 5px;
+    font: 1.25rem sans-serif;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0.75rem 1.25rem;
+  }
+  button[type="submit"] {
+    background-color: hsl(214, 70%, 46%);
+    color: white;
+  }
+  
+  button[type="reset"] {
+    text-decoration: underline;
+    margin-left: 1rem;
+  }
+  button[type="reset"]:hover {
+    text-decoration: none;
+  }
+  button[type="submit"]:hover {
+    background-color: hsl(213, 73%, 40%);
+  }
+  
+
+  input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px hsl(213, 90%, 70%);
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px black;
+  }
+
+  .gridinstruction1{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+  }
+  .gridinstruction{
+    grid-column: 1 / span 2;
+    grid-row: 2;
   }

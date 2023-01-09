@@ -66,17 +66,19 @@ const RecipeForm = () => {
     <form onSubmit={submitData}>
       <div>
         <label htmlFor="name">Name</label>
-        <input className="inputbox" type="text" name="name" id="name" onChange={changeData} />
+        <input  type="text" name="name" id="name" onChange={changeData} />
       </div>
       <div>
         <label htmlFor="author">Author</label>
         <input type="text" name="author" id="author" onChange={changeData} />
       </div>
       <div>
-        <label htmlFor="desc">Description</label>
-        <textarea type="text" name="desc" id="desc" onChange={changeData} />
-      </div>
-      <fieldset>
+        <label htmlFor="img">Image url</label>
+        <input type="url" name="img" id="img" onChange={changeData} />
+        </div>
+      
+    
+      
       <div>
         <label htmlFor="countryCode">Recipe is from:</label>
         <select name="country_code" id="countryCode" onChange={changeCountry}>
@@ -86,11 +88,8 @@ const RecipeForm = () => {
           ))}
         </select>
       </div>
-      </fieldset>
-      <div>
-        <label htmlFor="img">Image url</label>
-        <input type="url" name="img" id="img" onChange={changeData} />
-      </div>
+      
+     
       <fieldset>
       <p>Ingredients</p>
       {ingredients.map((_, i) => {
@@ -117,13 +116,22 @@ const RecipeForm = () => {
           </div>
         );
       })}
-      <button onClick={addMore}>Add more ingredients</button>
+      <button onClick={addMore}>+ Add more ingredients</button>
       </fieldset>
-      <div>
-        <label htmlFor="inst">Instructions</label>
-        <textarea type="text" name="inst" id="inst" onChange={changeData} />
+      <div className={classes.gridinstruction}>
+        <label htmlFor="desc">Description</label>
+        <textarea type="text" name="desc" id="desc" onChange={changeData} />
       </div>
-      <input type="submit" value="Add recipe" />
+      <div className={classes.gridinstruction1}>
+        <label  htmlFor="inst">Instructions</label>
+        <textarea type="text" name="inst" id="inst" onChange={changeData}  />
+      </div>
+      <div></div>
+      
+      <div>
+      <button type="submit" value="Add recipe">Submit</button>
+      <button type="reset" value="Clear Form">Clear Form</button>
+      </div>
     </form>
     </div>
   );
