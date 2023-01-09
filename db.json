@@ -1,7 +1,32 @@
 {
-"recipes" : [
-    {
-    "name": "Chicken Parmesan",
-    "author": "Maria Valentina",
-    "country": "Italy"
-    }]}
+    "recipes": [
+      {
+        "name": "Pancake",
+        "author": "Margit",
+        "desc": "This is our family classic for Sunday mornings. Sunday without pancakes is just a day. Here is my base recipe, nowadays I add and modify it with ingredients I find at home",
+        "inc": [
+          {
+            "id": 1,
+            "incName": "milk",
+            "quantity": "2dl"
+          },
+          {
+            "id": 2,
+            "incName": "flour",
+            "quantity": "2dl"
+          },
+          {
+            "id": 3,
+            "incName": "egg",
+            "quantity": "2"
+          }
+        ],
+        "inst": "In a medium bowl, whisk together milk and egg. Add dry ingredients to milk mixture; whisk until all is neat. ",
+        "img": "https://source.unsplash.com/ZgRTuPsmFQg/1600x900",
+        "id": 1,
+        "country_code": "EE"
+      }
+      
+    ]
+  }
+  

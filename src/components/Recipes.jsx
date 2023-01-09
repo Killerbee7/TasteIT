@@ -3,7 +3,7 @@ import React from 'react';
 const PokeList = () => {
   return (
     <div>
-      PokeList
+      All Recipes 
     </div>
   );
 };
