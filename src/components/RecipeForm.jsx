@@ -4,6 +4,7 @@ import classes from './RecipeForm.module.css'
 
 const RecipeForm = () => {
   const [data, setData] = useState({
+    id:"",
     name: "",
     author: "",
     desc: "",
@@ -18,7 +19,7 @@ const RecipeForm = () => {
     { id: 1, incName: "", quantity: "" },
   ]);
 
-  // countries state is for saving data from restcountries API
+  // countries state is for saving data from rest countries API
   const [countries, setCountries] = useState([]);
 
   // Getting data of 250 countries
@@ -48,16 +49,16 @@ const RecipeForm = () => {
     setData({ ...data, country_code: correctCountry.alpha2Code });
   };
 
-  // This event handler will add an empty ingredient object to the ingredients array.
+  
   const addMore = (e) => {
     e.preventDefault();
     const newInc = { id: ingredients.length + 1, incName: "", quantity: "" };
     setIngredients([...ingredients, newInc]);
   };
 
-  // After we have all data collected from inputs, we post the Data object from state.
+ 
   const submitData = (e) => {
-    axios.post("http://localhost:3001/recipies", data);
+    axios.post("http://localhost:3001/recipes", data);
   };
 
   return (
@@ -82,7 +83,7 @@ const RecipeForm = () => {
       <div>
         <label htmlFor="countryCode">Recipe is from:</label>
         <select name="country_code" id="countryCode" onChange={changeCountry}>
-         
+         <option value="selected">Choose a Country</option>
           {countries.map((c) => (
             <option key={c.name}>{c.name}</option>
           ))}
@@ -118,11 +119,11 @@ const RecipeForm = () => {
       })}
       <button onClick={addMore}>+ Add more ingredients</button>
       </fieldset>
-      <div className={classes.gridinstruction}>
+      <div className={classes.grid}>
         <label htmlFor="desc">Description</label>
         <textarea type="text" name="desc" id="desc" onChange={changeData} />
       </div>
-      <div className={classes.gridinstruction1}>
+      <div className={classes.grid1}>
         <label  htmlFor="inst">Instructions</label>
         <textarea type="text" name="inst" id="inst" onChange={changeData}  />
       </div>

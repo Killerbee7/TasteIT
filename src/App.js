@@ -6,6 +6,8 @@ import Recipes from './components/Recipes';
 import About from './components/About';
 import Home from './components/Home';
 import SingleRecipe from './components/SingleRecipe';
+import RecipeCard from './components/RecipeCard';
+import SeeMore from './components/SeeMore';
 
 
 
@@ -20,6 +22,8 @@ const App = () => {
       <Route path="recipe" element={<Recipes/>}/>
       <Route path='addrecipe' element={<SingleRecipe/>}/>
       <Route path="about" element={<About/>}/>
+      <Route path="recipes/:seemore" element={<SeeMore/>}/>
+
 
       </Route>
     </Routes>
