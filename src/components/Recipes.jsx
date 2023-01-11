@@ -48,6 +48,8 @@ const Recipes = () => {
 
                key={recipe.id}
 
+               id={recipe.id}
+
                name={recipe.name}
 
                author={recipe.author}
@@ -56,7 +58,7 @@ const Recipes = () => {
 
                desc={recipe.desc}
 
-               image={recipe.image} 
+               image={recipe.img} 
 
               
 

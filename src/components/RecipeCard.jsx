@@ -1,12 +1,12 @@
 import React from 'react';
 
 
+import { Link, useNavigate } from 'react-router-dom';
 
 
+const RecipeCard = ({id,name, author, country, image, desc}) => {
 
-const RecipeCard = ({name, author, country, image, desc}) => {
-
-
+    let navigate= useNavigate();
 
 
     return (
@@ -23,7 +23,7 @@ const RecipeCard = ({name, author, country, image, desc}) => {
 
             <img src={image} alt={name}/>
 
-            <button onClick={}>See More</button>  
+            <button><Link to={`${id}`}>See more</Link></button>
 
         </div>
 
