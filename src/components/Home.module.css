@@ -1,25 +1,21 @@
-body{
-   background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0),
-      rgba(188, 44, 44, 0.735)
-    ),
-  url(/src/images/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.homevideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 80px;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 .gridhome{
   margin-top: 5%;
+  position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     position: absolute;
-    margin-left: 25%;
+    margin-left: 35%;
   
 }
 

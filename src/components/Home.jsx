@@ -1,9 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from "./Home.module.css"
+import videoHome from "../images/coverr-flipping-chicken-on-grill-9341-1080p.mp4"
 
 const Home = () => {
     return (
+      <div>
+      <div>
+      <video className={classes.homevideo} autoplay muted loop id="myVideo">
+     <source autoplay loop muted src={videoHome}  type="video/mp4"/>
+     </video>
+     </div>
     <div className={classes.gridhome}>
       <div className={classes.wrapper}>
         <div className={classes.card}>
@@ -47,6 +54,8 @@ const Home = () => {
       
      
     </div>
+    </div>
+    
     );
 };
 

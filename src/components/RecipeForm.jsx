@@ -26,8 +26,10 @@ const RecipeForm = () => {
   useEffect(() => {
     axios.get("https://restcountries.com/v2/all").then((res) => {
       setCountries(res.data);
+      console.log(res.data);
     });
   }, []);
+
 
   // basic onChange event for regular inputs
   const changeData = (e) => {

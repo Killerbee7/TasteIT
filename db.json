@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 1,
       "name": "Pancake",
       "author": "Margit",
       "desc": "This is our family classic for Sunday mornings. Sunday without pancakes is just a day. Here is my base recipe, nowadays I add and modify it with ingredients I find at home",
@@ -23,11 +24,92 @@
       ],
       "inst": "In a medium bowl, whisk together milk and egg. Add dry ingredients to milk mixture; whisk until all is neat. ",
       "img": "https://images.unsplash.com/photo-1565299543923-37dd37887442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=962&q=80",
-      "id": 1,
+      
       "country_code": "EE"
     },
     {
       "id": 2,
+      "name": "Pancake",
+      "author": "Margit",
+      "desc": "This is our family classic for Sunday mornings. Sunday without pancakes is just a day. Here is my base recipe, nowadays I add and modify it with ingredients I find at home",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "milk",
+          "quantity": "2dl"
+        },
+        {
+          "id": 2,
+          "incName": "flour",
+          "quantity": "2dl"
+        },
+        {
+          "id": 3,
+          "incName": "egg",
+          "quantity": "2"
+        }
+      ],
+      "inst": "In a medium bowl, whisk together milk and egg. Add dry ingredients to milk mixture; whisk until all is neat. ",
+      "img": "https://images.unsplash.com/photo-1565299543923-37dd37887442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=962&q=80",
+      
+      "country_code": "EE"
+    },
+    {
+      "id": 3,
+      "name": "Pancake",
+      "author": "Margit",
+      "desc": "This is our family classic for Sunday mornings. Sunday without pancakes is just a day. Here is my base recipe, nowadays I add and modify it with ingredients I find at home",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "milk",
+          "quantity": "2dl"
+        },
+        {
+          "id": 2,
+          "incName": "flour",
+          "quantity": "2dl"
+        },
+        {
+          "id": 3,
+          "incName": "egg",
+          "quantity": "2"
+        }
+      ],
+      "inst": "In a medium bowl, whisk together milk and egg. Add dry ingredients to milk mixture; whisk until all is neat. ",
+      "img": "https://images.unsplash.com/photo-1565299543923-37dd37887442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=962&q=80",
+      
+      "country_code": "EE"
+    },
+    {
+      "id": 4,
+      "name": "Pancake",
+      "author": "Margit",
+      "desc": "This is our family classic for Sunday mornings. Sunday without pancakes is just a day. Here is my base recipe, nowadays I add and modify it with ingredients I find at home",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "milk",
+          "quantity": "2dl"
+        },
+        {
+          "id": 2,
+          "incName": "flour",
+          "quantity": "2dl"
+        },
+        {
+          "id": 3,
+          "incName": "egg",
+          "quantity": "2"
+        }
+      ],
+      "inst": "In a medium bowl, whisk together milk and egg. Add dry ingredients to milk mixture; whisk until all is neat. ",
+      "img": "https://images.unsplash.com/photo-1565299543923-37dd37887442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=962&q=80",
+      
+      "country_code": "EE"
+    },
+    {
+      "id": 5,
       "name": "MOMO",
       "author": "Dibya",
       "desc": "A very popular Nepali dish eaten anytime of the day.",
@@ -61,6 +143,54 @@
         }
       ],
       "inst": "Veg Momos, a steamed or fried dumpling stuffed with mixed vegetables, is a delicious snack food enjoyed in Tibet region. From last few years, Momos are getting very popular in other parts of India and you can easily prepare them at home by either steaming or deep frying. The traditional recipe requires it to slow-cook by steaming and this recipe uses this technique to keep them healthier and authentic. Steps to cook Vegetarian Momos at home can be classified in three parts; 1) prepare fresh vegetable stuffing, 2) bind the dough, fill rolled dough with mixed vegetable mixture and give them a “Potli” shape, and 3) Steam cook them. This Veg Momos recipe explains all three parts with step by step photos and also explains how to give them its unique pleated bag shape. Enjoy them with spicy red tomato chilli chutney.\n"
+    },
+    {"id": 8,
+      "name": "Chicken Parmesan",
+      "author": "Maria Valentina",
+      "country": "Italy",
+      "desc": "A classic Italian dish of breaded chicken topped with tomato sauce and melted mozzarella cheese.",
+      "img": "https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg",
+      "inc": [
+        {
+          "id":1,
+          "incName": "chicken breasts",
+          "quantity": 2
+          
+        },
+        {
+          "id":2,
+          "incName": "flour",
+          "quantity": 0.5
+          
+        },
+        {
+          "id":3,
+          "incName": "eggs",
+          "quantity": 2
+          
+        },
+        {
+          "id":4,
+          "incName": "bread crumbs",
+          "quantity": 1
+         
+        },
+        {
+          "id":5,
+          "incName": "tomato sauce",
+          "quantity": 1
+        },
+          
+        {
+          "id": 6,
+          "incName": "mozzarella cheese",
+          "quantity": 1
+          
+        }
+      ],
+      
+      "inst": "Veg Momos, a steamed or fried dumpling stuffed with mixed vegetables, is a delicious snack food enjoyed in Tibet region. From last few years, Momos are getting very popular in other parts of India and you can easily prepare them at home by either steaming or deep frying. The traditional recipe requires it to slow-cook by steaming and this recipe uses this technique to keep them healthier and authentic. Steps to cook Vegetarian Momos at home can be classified in three parts; 1) prepare fresh vegetable stuffing, 2) bind the dough, fill rolled dough with mixed vegetable mixture and give them a “Potli” shape, and 3) Steam cook them. This Veg Momos recipe explains all three parts with step by step photos and also explains how to give them its unique pleated bag shape. Enjoy them with spicy red tomato chilli chutney.\n"
     }
+      
   ]
 }
