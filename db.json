@@ -27,57 +27,40 @@
       "country_code": "EE"
     },
     {
-      "name": "Alex",
-      "author": "Alex",
-      "desc": "fffff",
-      "country_code": "",
-      "img": "https://www.youtube.com/",
+      "id": 2,
+      "name": "MOMO",
+      "author": "Dibya",
+      "desc": "A very popular Nepali dish eaten anytime of the day.",
+      "country_code": "NP",
+      "img": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Chicken-momos-1ed8358.jpg?quality=90&resize=556,505",
       "inc": [
         {
           "id": 1,
-          "incName": "ttttt",
-          "quantity": "44"
+          "incName": "2 small bowl",
+          "quantity": "flour"
         },
         {
           "id": 2,
-          "incName": "hhhhh",
-          "quantity": "5555"
-        }
-      ],
-      "inst": "fgfg",
-      "id": 2
-    },
-    {
-      "name": "rtrtt",
-      "author": "trttrt",
-      "desc": "trtrtttrt",
-      "country_code": "AG",
-      "img": "https://www.youtube.com/",
-      "inc": [
+          "incName": "small cup",
+          "quantity": "minced chicken"
+        },
         {
-          "id": 1,
-          "incName": "444",
-          "quantity": "44"
-        }
-      ],
-      "inst": "hhhhhh\ngggggggg\nggggg",
-      "id": 3
-    },
-    {
-      "id": 4,
-      "name": "cewiu",
-      "author": "iushvruh",
-      "desc": "revewbbrvkbjews",
-      "country_code": "DZ",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
+          "id": 3,
+          "incName": "50gm",
+          "quantity": "Finely chopped cabbage"
+        },
         {
-          "id": 1,
-          "incName": "3456",
-          "quantity": "ewvr"
+          "id": 4,
+          "incName": "50 gm",
+          "quantity": "Finely chopped onions"
+        },
+        {
+          "id": 5,
+          "incName": "As taste",
+          "quantity": "Momo masala"
         }
       ],
-      "inst": "rveuhwvabe"
+      "inst": "Veg Momos, a steamed or fried dumpling stuffed with mixed vegetables, is a delicious snack food enjoyed in Tibet region. From last few years, Momos are getting very popular in other parts of India and you can easily prepare them at home by either steaming or deep frying. The traditional recipe requires it to slow-cook by steaming and this recipe uses this technique to keep them healthier and authentic. Steps to cook Vegetarian Momos at home can be classified in three parts; 1) prepare fresh vegetable stuffing, 2) bind the dough, fill rolled dough with mixed vegetable mixture and give them a “Potli” shape, and 3) Steam cook them. This Veg Momos recipe explains all three parts with step by step photos and also explains how to give them its unique pleated bag shape. Enjoy them with spicy red tomato chilli chutney.\n"
     }
   ]
 }

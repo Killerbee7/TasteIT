@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import RecipeCard from '../components/RecipeCard';
 
-
+import classes from "./Recipes.module.css"
 
 let allRecipes = [];
 
@@ -34,7 +34,7 @@ const Recipes = () => {
 
     return (
 
-        <div>
+        <div className={classes.recipecontainer}>
 
             <label htmlFor='search-recipes'>Search for recipe:</label>
 
@@ -42,7 +42,7 @@ const Recipes = () => {
 
             <h1>Our Recipes</h1>
 
-            <div className="recipes-list">{allRecipes.map((recipe) => (
+            <div className={classes.recipes}>{allRecipes.map((recipe) => (
 
                 <RecipeCard
 

@@ -63,7 +63,7 @@ const RecipeForm = () => {
 
   return (
     
-    <div><h1>ADD RECIPE</h1>
+    <div><h1 className={classes.heading}>ADD RECIPE</h1>
     <form onSubmit={submitData}>
       <div>
         <label htmlFor="name">Name</label>

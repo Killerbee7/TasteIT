@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import {  useParams, useNavigate} from 'react-router-dom';
 
 import axios from 'axios';
+import classes from "./SeeMore.module.css"
 
 
 
@@ -47,7 +48,7 @@ const SeeMore = () => {
 
         return (
 
-            <div>
+            <div className={classes.singlerecipe}>
 
             <h2>{data.name}</h2>
 
@@ -56,6 +57,9 @@ const SeeMore = () => {
              <p>{data.country}</p>
               
               <img src={data.img} alt="" />
+
+              <p>{data.desc}</p>
+              
 
            
 

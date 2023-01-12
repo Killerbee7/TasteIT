@@ -1,4 +1,5 @@
 body {
+  
     margin: 0;
     background-color: hsl(0, 0%, 98%);
     color: #333;
@@ -6,13 +7,18 @@ body {
   }
   
   main {
+    
     margin: 0 auto;
     padding: 1rem 0;
-    width: 90%;
-    max-width: 60rem;
+    width: 80%;
+    max-width: 80rem;
   }
-  
+.heading{
+    margin-left: 40rem;
+  }
   form {
+   overflow: auto;
+    margin-left: 20%;
     box-sizing: border-box;
     padding: 2rem;
     border-radius: 1rem;
@@ -21,6 +27,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: 1rem;
+    
   }
   
   .full-width {
