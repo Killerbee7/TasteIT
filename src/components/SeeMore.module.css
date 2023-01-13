@@ -1,3 +1,18 @@
-.singlerecipe{
-    margin-left: 40rem;
+.recipeSingle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
+
+
+
+.image img{
+    object-fit: cover;
+    width: 600px;
+}
+table, th, td {
+    border: 1px solid  ;
+    padding: 5px;
+  }
+
+  

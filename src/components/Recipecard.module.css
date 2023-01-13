@@ -1,12 +1,14 @@
 .container{
     display: inline-grid;
+    
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding: 50px;
+  
 }
 
 .card {
     height: 620px;
-    width: 540px;
+    width: 450px;
     border-radius: 15px;
     border: 2px solid rgb(0, 0, 0);
     display: flex;
@@ -28,7 +30,7 @@
 
 .card img {
     flex: 60%;
-    width: 550px;
+    width: 450px;
     height: 350px;
     object-fit: cover;
     border-radius: 15px;
@@ -57,13 +59,7 @@
 
 
 
-@media screen and (max-width: 600px) {
-    .card {
-        height: 50vh;
-        max-width: 85vw;
-    }
 
-}
 
 
 /* CSS */
@@ -110,8 +106,3 @@
   background-color: #6DCFF6;
 }
 
-@media (min-width: 768px) {
-  .button {
-    padding: 16px 32px;
-  }
-}

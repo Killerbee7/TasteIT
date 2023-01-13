@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 
 import axios from 'axios';
 
@@ -10,39 +10,57 @@ let allRecipes = [];
 
 
 
+
 const Recipes = () => {
+
+    const [recipes, setRecipes ] = useState([]);
+    const [findRecipe, setFindRecipe ] = useState({search: ''});
+
+    
+
+
 
     useEffect(() => {
 
         axios.get("http://localhost:3001/recipes")
 
-        .then((response) => {
+        .then((res) => {
 
-            response.data.map((item) => {
+            setRecipes(res.data)   
 
-                allRecipes.push(item);
+        })
 
-                return(allRecipes)     
+},[]);
+const findHandler = (e) => {
 
-    })
+    e.preventDefault();
 
-    console.log('allRecipes', allRecipes);
+    let search = e.target.value;
+
+    setFindRecipe({ ...findRecipe,  search})
+
+};
+
+
+
+const searchedRecipes = recipes.filter((recipe) => {
+
+    return recipe.name.toLowerCase().includes(findRecipe.search.toLowerCase());
 
 });
-
-}, []);
 
     return (
 
         <div className={classes.recipecontainer}>
 
-            <label htmlFor='search-recipes'>Search for recipe:</label>
+<label htmlFor='search-recipes'>Search for recipe:</label>
 
-            <input type="text" name='search-recipes' id='search-recipes'/>
+<input type="text" name='search-recipes' id='search-recipes' onChange={findHandler}/>
 
             <h1>Our Recipes</h1>
+            
 
-            <div className={classes.recipes}>{allRecipes.map((recipe) => (
+            <div className={classes.recipes}>{searchedRecipes.map((recipe) => (
 
                 <RecipeCard
 
