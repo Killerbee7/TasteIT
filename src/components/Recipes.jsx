@@ -78,6 +78,8 @@ const searchedRecipes = recipes.filter((recipe) => {
 
                image={recipe.img} 
 
+               flag={recipe.flag}
+
               
 
                />

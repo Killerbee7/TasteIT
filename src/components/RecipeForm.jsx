@@ -9,6 +9,7 @@ const RecipeForm = () => {
     author: "",
     desc: "",
     country: "",
+    flag:"",
     img: "",
     inc: [],
     inst: "",
@@ -48,7 +49,8 @@ const RecipeForm = () => {
 
   const changeCountry = (e) => {
     const correctCountry = countries.find((c) => c.name === e.target.value);
-    setData({ ...data, country: correctCountry.name });
+    setData({ ...data, country: correctCountry.name, flag: correctCountry.flag });
+    
   };
 
   

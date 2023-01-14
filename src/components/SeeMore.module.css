@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    
 }
 
 
@@ -13,6 +14,16 @@
 table, th, td {
     border: 1px solid  ;
     padding: 5px;
+  }
+
+  .imgFlg{
+    position: relative;
+    margin-left: 5%;
+    width: 80px;
+  }
+
+  .instruction{
+    margin-bottom: 20px;
   }
 
   

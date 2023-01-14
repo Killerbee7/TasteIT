@@ -34,7 +34,7 @@ const SeeMore = () => {
   return (
     <div>
       <div>
-        <h1>{data.name}</h1>
+        <h1>{data.name} <span><img className={classes.imgFlg} src={data.flag} alt="" /></span></h1>
       </div>
       <div className={classes.recipeSingle}>
         <div className={classes.image}>
@@ -42,8 +42,8 @@ const SeeMore = () => {
         </div>
 
         <div className={classes.details}>
-          <h2 className={classes.author}>By {data.author}</h2>
-          <p className={classes.country}>Country: {data.country} </p>
+          <h2 className={classes.author}>By {data.author} </h2>
+          <p className={classes.country}>{data.country} </p>
           <div className={classes.description}>
             <h3>Description</h3>
             <p>{data.desc}</p>
@@ -67,6 +67,7 @@ const SeeMore = () => {
           </table>
           <h3>Instruction</h3>
           <p className={classes.instruction}>{data.inst}</p>
+          
         </div>
       </div>
     </div>

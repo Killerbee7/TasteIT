@@ -6,6 +6,16 @@
   
 }
 
+
+
+.flagImage img{
+  
+  width: 80px;
+  position: absolute;
+  top: 57%;
+  left: 1%;
+}
+
 .card {
     height: 620px;
     width: 450px;
@@ -20,15 +30,7 @@
     position: relative;
 }
 
-
-
-.flag img {
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.card img {
+.card .recipeImage img {
     flex: 60%;
     width: 450px;
     height: 350px;
@@ -73,6 +75,7 @@
   font-weight: 700;
   line-height: 24px;
   padding: 16px 23px;
+  margin-bottom: 30px;
   position: relative;
   text-decoration: none;
   user-select: none;
