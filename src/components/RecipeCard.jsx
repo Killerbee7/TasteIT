@@ -5,7 +5,7 @@ import classes from "./Recipecard.module.css"
 
 import { Link } from "react-router-dom";
 
-const RecipeCard = ({ id, name, author, country_code, image, desc }) => {
+const RecipeCard = ({ id, name, author, country, image, desc }) => {
   return (
     <div className={classes.container}>
     <div className={classes.card} key={name}>

@@ -6,7 +6,7 @@ import RecipeCard from '../components/RecipeCard';
 
 import classes from "./Recipes.module.css"
 
-let allRecipes = [];
+
 
 
 

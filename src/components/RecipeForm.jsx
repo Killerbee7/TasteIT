@@ -8,7 +8,7 @@ const RecipeForm = () => {
     name: "",
     author: "",
     desc: "",
-    country_code: "",
+    country: "",
     img: "",
     inc: [],
     inst: "",
@@ -48,7 +48,7 @@ const RecipeForm = () => {
 
   const changeCountry = (e) => {
     const correctCountry = countries.find((c) => c.name === e.target.value);
-    setData({ ...data, country_code: correctCountry.alpha2Code });
+    setData({ ...data, country: correctCountry.name });
   };
 
   
@@ -83,8 +83,8 @@ const RecipeForm = () => {
     
       
       <div>
-        <label htmlFor="countryCode">Recipe is from:</label>
-        <select name="country_code" id="countryCode" onChange={changeCountry}>
+        <label htmlFor="country">Recipe is from:</label>
+        <select name="country" id="country" onChange={changeCountry}>
          <option value="selected">Choose a Country</option>
           {countries.map((c) => (
             <option key={c.name}>{c.name}</option>

@@ -43,7 +43,7 @@ const SeeMore = () => {
 
         <div className={classes.details}>
           <h2 className={classes.author}>By {data.author}</h2>
-          <p className={classes.country}>Country: {data.country_code} </p>
+          <p className={classes.country}>Country: {data.country} </p>
           <div className={classes.description}>
             <h3>Description</h3>
             <p>{data.desc}</p>
