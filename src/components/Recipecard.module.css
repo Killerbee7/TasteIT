@@ -2,7 +2,7 @@
     display: inline-grid;
     
   grid-template-columns: auto auto auto;
-  padding: 50px;
+  padding: 20px 50px;
   
 }
 
@@ -28,6 +28,7 @@
     align-items: center;
     align-content: center;
     position: relative;
+    margin-bottom: 80px;
 }
 
 .card .recipeImage img {

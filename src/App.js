@@ -6,7 +6,6 @@ import Recipes from './components/Recipes';
 import About from './components/About';
 import Home from './components/Home';
 import SingleRecipe from './components/SingleRecipe';
-
 import SeeMore from './components/SeeMore';
 
 
