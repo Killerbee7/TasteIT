@@ -20,16 +20,16 @@
 * Node
 
 ## Home Screen 
-![Home Screen](./src/images/Home.png)
+![Home Screen](./public/images/Home.png)
 
 ## Add Recipe
-![Add Recipe](./src/images/Addrecipe.png)
+![Add Recipe](./public/images/Addrecipe.png)
 
 ## Recipe List
-![Recipe List](./src/images/browse.png)
+![Recipe List](./public/images/browse.png)
 
 ## Single Recipe
-![Recipe List](./src/images/singleRecipe.png)
+![Recipe List](./public/images/singleRecipe.png)
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from "./Home.module.css";
-import videoHome from "../images/coverr-flipping-chicken-on-grill-9341-1080p.mp4";
+import videoHome from "../video/coverr-flipping-chicken-on-grill-9341-1080p.mp4";
 
 const Home = () => {
     return (
