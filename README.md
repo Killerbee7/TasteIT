@@ -9,7 +9,7 @@
 ## To run the app
 
 * npm i (to install node modules)
-* npm run
+* npm start
 * npm run server(in new terminal)
 
 
