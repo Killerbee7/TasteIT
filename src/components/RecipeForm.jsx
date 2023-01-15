@@ -57,7 +57,7 @@ const RecipeForm = () => {
 
   const submitData = (e) => {
     axios.post("http://localhost:3001/recipes", data);
-    alert("Your recipe has been added, access it from browse recipe.")
+    alert("Your recipe has been added, access it from browse recipe.");
   };
 
   return (
@@ -66,21 +66,41 @@ const RecipeForm = () => {
       <form onSubmit={submitData}>
         <div>
           <label htmlFor="name">Name</label>
-          <input type="text" name="name" id="name" required onChange={changeData} />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            onChange={changeData}
+          />
         </div>
         <div>
           <label htmlFor="author">Author</label>
-          <input type="text" name="author" id="author" required onChange={changeData} />
+          <input
+            type="text"
+            name="author"
+            id="author"
+            required
+            onChange={changeData}
+          />
         </div>
         <div>
           <label htmlFor="img">Image url</label>
-          <input type="url" name="img" id="img" required  onChange={changeData} />
+          <input
+            type="url"
+            name="img"
+            id="img"
+            required
+            onChange={changeData}
+          />
         </div>
 
         <div>
           <label htmlFor="country">Recipe is from:</label>
           <select name="country" id="country" onChange={changeCountry}>
-            <option value="selected" required >Choose a Country</option>
+            <option value="selected" required>
+              Choose a Country
+            </option>
             {countries.map((c) => (
               <option key={c.name}>{c.name}</option>
             ))}
@@ -94,7 +114,7 @@ const RecipeForm = () => {
               <div key={i}>
                 <div>
                   <label htmlFor="quantity">Quantity</label>
-                  <input 
+                  <input
                     required
                     type="text"
                     name="quantity"
@@ -105,7 +125,7 @@ const RecipeForm = () => {
                 <div>
                   <label htmlFor="incName">Ingredient</label>
                   <input
-                  required
+                    required
                     type="text"
                     name="incName"
                     id="incName"
@@ -119,11 +139,23 @@ const RecipeForm = () => {
         </fieldset>
         <div className={classes.grid}>
           <label htmlFor="desc">Description</label>
-          <textarea type="text" name="desc" id="desc" required onChange={changeData} />
+          <textarea
+            type="text"
+            name="desc"
+            id="desc"
+            required
+            onChange={changeData}
+          />
         </div>
         <div className={classes.grid1}>
           <label htmlFor="inst">Instructions</label>
-          <textarea type="text" name="inst" id="inst" required onChange={changeData} />
+          <textarea
+            type="text"
+            name="inst"
+            id="inst"
+            required
+            onChange={changeData}
+          />
         </div>
         <div></div>
 

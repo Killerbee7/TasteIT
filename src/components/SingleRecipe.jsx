@@ -1,10 +1,10 @@
-import React from 'react';
-import RecipeForm from './RecipeForm';
+import React from "react";
+import RecipeForm from "./RecipeForm";
 
 const AddRecipes = () => {
   return (
     <div>
-      <RecipeForm/>
+      <RecipeForm />
     </div>
   );
 };

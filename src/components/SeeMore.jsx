@@ -42,7 +42,9 @@ const SeeMore = () => {
       <div className={classes.recipeSingle}>
         <div className={classes.image}>
           <img src={data.img} alt={data.name} />
-          <button className={classes.buttonBack} onClick={() => navigate(-1)}>Back</button>
+          <button className={classes.buttonBack} onClick={() => navigate(-1)}>
+            Back
+          </button>
         </div>
 
         <div className={classes.details}>
@@ -51,30 +53,26 @@ const SeeMore = () => {
           <div className={classes.description}>
             <p>{data.desc}</p>
           </div>
-          
+
           <h3>Ingredients</h3>
 
-          
-           <table className={classes.ingredients}>
+          <table className={classes.ingredients}>
             <tbody>
-           <tr>
-                 <th>Ingredient</th>
-                 <th>Quantity</th>
-                 
-                 </tr>
+              <tr>
+                <th>Ingredient</th>
+                <th>Quantity</th>
+              </tr>
               {data.inc &&
                 data.inc.map((inc, i) => {
                   return (
-                    
                     <tr key={i}>
                       <td>{inc.incName}</td>
                       <td>{inc.quantity}</td>
                     </tr>
-                    
                   );
                 })}
             </tbody>
-          </table> 
+          </table>
           <h3>Instruction</h3>
           <p className={classes.instruction}>{data.inst}</p>
         </div>
