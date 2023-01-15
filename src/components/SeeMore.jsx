@@ -56,6 +56,7 @@ const SeeMore = () => {
 
           
            <table className={classes.ingredients}>
+            <tbody>
            <tr>
                  <th>Ingredient</th>
                  <th>Quantity</th>
@@ -64,17 +65,15 @@ const SeeMore = () => {
               {data.inc &&
                 data.inc.map((inc, i) => {
                   return (
-                    <>
-                  
                     
                     <tr key={i}>
                       <td>{inc.incName}</td>
                       <td>{inc.quantity}</td>
                     </tr>
-                    </>
+                    
                   );
                 })}
-            
+            </tbody>
           </table> 
           <h3>Instruction</h3>
           <p className={classes.instruction}>{data.inst}</p>

@@ -78,7 +78,28 @@
         }
       ],
       "inst": "Veg Momos, a steamed or fried dumpling stuffed with mixed vegetables, is a delicious snack food enjoyed in Tibet region. From last few years, Momos are getting very popular in other parts of India and you can easily prepare them at home by either steaming or deep frying. The traditional recipe requires it to slow-cook by steaming and this recipe uses this technique to keep them healthier and authentic. Steps to cook Vegetarian Momos at home can be classified in three parts; 1) prepare fresh vegetable stuffing, 2) bind the dough, fill rolled dough with mixed vegetable mixture and give them a “Potli” shape, and 3) Steam cook them. This Veg Momos recipe explains all three parts with step by step photos and also explains how to give them its unique pleated bag shape. Enjoy them with spicy red tomato chilli chutney.\n"
+    },
+    {
+      "id": 3,
+      "name": "Boiled Egg",
+      "author": "Dibya",
+      "desc": "A very popular dish from the Earth",
+      "country": "Finland",
+      "flag": "https://flagcdn.com/fi.svg",
+      "img": "https://images.unsplash.com/photo-1617611647086-bccca8c2cf84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "Egss",
+          "quantity": "2 pcs"
+        },
+        {
+          "id": 2,
+          "incName": "Water",
+          "quantity": "2 cups"
+        }
+      ],
+      "inst": "Take 2 cups of water and put egg inside, let it cook for 10 mins. Ready to serve."
     }
-    
   ]
 }

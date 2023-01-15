@@ -1,11 +1,14 @@
 .homeVideo {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  z-index:-1;
+  top: 0;
+  left: 0;
   top: 80px;
   min-width: 100%; 
-  min-height: 100%;
+  min-height: 10vh;
+  
 }
+
 
 .gridHome{
   margin-top: 5%;
@@ -17,6 +20,16 @@
     position: absolute;
     margin-left: 35%;
   
+}
+
+@media only screen and (max-width: 600px) {
+  .gridHome {
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    padding: 20px;
+  }
 }
 
 

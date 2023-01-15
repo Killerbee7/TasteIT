@@ -10,6 +10,11 @@
     object-fit: cover;
     width: 600px;
 }
+@media only screen and (max-width: 600px) {
+  .image img {
+    width: 200px;
+  }
+}
 
 .description p{
   margin-top: 10px;
@@ -35,7 +40,7 @@ tr:nth-child(even) {
     position: relative;
     margin-left: 5%;
     width: 80px;
-    margin-bottom: 10px;
+    margin-bottom: -15px;
   }
 
   .instruction{
