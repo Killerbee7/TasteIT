@@ -2,7 +2,7 @@
 
 #### The project was an assignment of react course(Teacher: Margit Tennosaar).
 
-#### User can add recipe and browse recipes from the database.
+#### User can add recipe from their country and also, browse recipes from the database.
 
 #### To add recipe user have to fill form with required details
 
