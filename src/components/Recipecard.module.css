@@ -12,7 +12,7 @@
   
   width: 80px;
   position: absolute;
-  top: 57%;
+  top: 58%;
   left: 1%;
 }
 
@@ -47,12 +47,9 @@
     
 }
 
-.card h4 {
-    margin-top: 0;
-}
 
 .card p{
-    margin-top: 0;
+    margin-top: 15px;
 }
 
 
@@ -68,9 +65,9 @@
 /* CSS */
 .button {
   background-color: transparent;
-  border: 1px solid #266DB6;
+  border: 1px solid #000000;
   box-sizing: border-box;
-  color: #00132C;
+  color: #ffffff;
   font-family: "Avenir Next LT W01 Bold",sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -90,12 +87,13 @@
 }
 
 .button:hover {
-  background-color: transparent;
+  background-color: white;
+  color: black;
   cursor: pointer;
 }
 
 .button:before {
-  background-color: #2da1cb;
+  background-color: #2f2828;
   content: "";
   height: calc(100% + 3px);
   position: absolute;
@@ -107,6 +105,6 @@
 }
 
 .button:hover:before {
-  background-color: #6DCFF6;
+  background-color: #575e60;
 }
 

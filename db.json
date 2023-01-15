@@ -1,12 +1,12 @@
 {
   "recipes": [
     {
-      "id": 5,
+      "id": 1,
       "name": "MOMO",
       "author": "Dibya",
       "desc": "A very popular Nepali dish eaten anytime of the day.",
       "country": "Nepal",
-      "flag":"https://flagcdn.com/np.svg",
+      "flag": "https://flagcdn.com/np.svg",
       "img": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Chicken-momos-1ed8358.jpg?quality=90&resize=556,505",
       "inc": [
         {
@@ -38,11 +38,11 @@
       "inst": "Veg Momos, a steamed or fried dumpling stuffed with mixed vegetables, is a delicious snack food enjoyed in Tibet region. From last few years, Momos are getting very popular in other parts of India and you can easily prepare them at home by either steaming or deep frying. The traditional recipe requires it to slow-cook by steaming and this recipe uses this technique to keep them healthier and authentic. Steps to cook Vegetarian Momos at home can be classified in three parts; 1) prepare fresh vegetable stuffing, 2) bind the dough, fill rolled dough with mixed vegetable mixture and give them a “Potli” shape, and 3) Steam cook them. This Veg Momos recipe explains all three parts with step by step photos and also explains how to give them its unique pleated bag shape. Enjoy them with spicy red tomato chilli chutney.\n"
     },
     {
-      "id": 6,
+      "id": 2,
       "name": "Chicken Parmesan",
       "author": "Maria Valentina",
-      "country": "France",
-      "flag":"https://flagcdn.com/fr.svg",
+      "country": "Italy",
+      "flag": "https://flagcdn.com/it.svg",
       "desc": "A classic Italian dish of breaded chicken topped with tomato sauce and melted mozzarella cheese.",
       "img": "https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg",
       "inc": [
@@ -78,166 +78,7 @@
         }
       ],
       "inst": "Veg Momos, a steamed or fried dumpling stuffed with mixed vegetables, is a delicious snack food enjoyed in Tibet region. From last few years, Momos are getting very popular in other parts of India and you can easily prepare them at home by either steaming or deep frying. The traditional recipe requires it to slow-cook by steaming and this recipe uses this technique to keep them healthier and authentic. Steps to cook Vegetarian Momos at home can be classified in three parts; 1) prepare fresh vegetable stuffing, 2) bind the dough, fill rolled dough with mixed vegetable mixture and give them a “Potli” shape, and 3) Steam cook them. This Veg Momos recipe explains all three parts with step by step photos and also explains how to give them its unique pleated bag shape. Enjoy them with spicy red tomato chilli chutney.\n"
-    },
-    {
-      "id": 7,
-      "name": "Dibya",
-      "author": "Boiled Egg",
-      "desc": "Very popular dish.",
-      "country": "Finland",
-      "flag":"https://flagcdn.com/fi.svg",
-      "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEBISEhUWFRIXFhUXFxUPEBAVFRUWFhUSFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy4lHyUwLS0wLS0tLystMC4tLS0tLS0tLS0tLS0tLS8tLS0tKy0tLS0tLS0tLS0tLS0tLS0tK//AABEIAOEA4AMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUCAwYBB//EAD8QAAIBAgMFBQUFBgUFAAAAAAABAgMRBAUhEjFBUWEGE3GBkSIyobHRQlJiwfAUI3Ky4fEzgqLC0gcVFiVz/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIDBAEFBv/EACkRAQACAgEDAwMEAwAAAAAAAAABAgMRIQQSMRMiQQUyUWFxsdEUM4H/2gAMAwEAAhEDEQA/APuIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGDqL9agZgjzxcVvaXmjU8zp/eXr/QCaCEszp/eXr/AENscZB7n8gJAMI1Yvj+RmAAAAAAAAAAAAAAAAAAAAAAACPisXGC1YG6Ukt/9SHicxjDfv5LVlXiswlK/wBlfFlJjs1hTT5kZtEOxEyva+aTe60V11ZV4zNox/xKvxscJmvaipOXd0U5SeiS3sk5Z2Nr13tYmo0n9iLsvOX0KvUtbisLfTiObSt8V2uwsPtXNC7Ywfu0qjXNRbXyOhyrsbhqW6nG/O136vUvKeWU47oR9CXpZJ+XO7HHiHDx7VLjQqr/ACS+hvo9qcO3aXsvr7LO0/YofdXoR8Tk1GatKEX5D0snxY7qfhVYTNIy/wAOp8blpQzOS36rp9Chx3YmlvouVKX4XZem4p6ssZhH+8Xe0/vRXtJdY/QhN70+6Dsrb7ZfScNmEZEtM4LLM5p1UnF2ZfYTMZR3u65l1bRaOFc1mPLoAaqFdTV0bSTgAAAAAAAAAAAAAAEHMcaoKy3geZhj1BWWrKDEYjjJ3fyMMTiLXbepzeb5qo31Kr30nWm0nNM22U9Ticdjqleap07uUnZL830NOYY+VRnTf9PsqTcq0lq/Zj0S3vzfyKoibS0TEUrtfdkOysKMdqS2pv3pPe+i5LodlSppI1UYpI9lM21rFY1DJMzM7lJi1xPZVEQXUG2zoluSMHIj7bG2wN7Zrq0lJWauYd4e94xPI43tB2clTbrYbSW+UN0Z/R9TXkud7atLfuae9PkztJ67z5/2swPcVVXgvZk7TS3KXCXnu9DLkx9vuqurbu9tnYYPFuLvF6HR4PFKa6nznKcx2ktTosDi7O6ZKl9oWrp1gNOFrqcb8eJuLEAAAAAAAAAAAasTWUYts5jGYi7cn5E/OcTd7K3HJ53j9lMhe2oSrXcoWdZqop6nGYrEyqM9zDFucjGjDiZvPLXEah5Gj6n0jsdFRoQ8Pi2z5+onY9jcWnTcOMW/R6p/P0LMc6sry81dr3pqnVNMZczTOZr2zJHenvfEN1DDbObd1Kd3x53pC2zJSG3NSl94e96Rdtnu2c2JXelbnWHVWlOD+1FrwfB+tiRtmFV6EbTwR5fNcnx7g9mX9jtcDitzPnuYR2as2vvz/mZe9n8wvozJvTZeu42+k5ZjNlp8OPgdFF3V0cNl1fh6HU5RiLpwfDVeH9/maq23DJMaWIAJOAAAAAAasTU2Ytm0rM6q2jYCgx1eylJ8T532hzC7audd2kxWxC3Q4TK8rq46v3dPRLWc96hH82+CM1/dbUNGPURuUHCUpTlaMXJvcknJvyR02D7J4qWrhGC4bUtfRXPoeR9n6OGgoUorrJ6zm+cn+kXMMOi6MP5Rtmn4fMf/AAzEcJU/WX/E10cjxmDqKqqfexXvqm9qTjx9lpNvwPqEomLRP0YQ9WVFhcRGpFSi7p+XquDFQkZjgPt09JceUvH6lfQxilpLSS3p70Q7tTqXO3fMNjQSMmYpEtm3uweqB7cyjTk90ZPydjvdDnLFRPXExqKUfei11advUxVa5GbQaltSNGYYhU4SnLRRi36G5SOO7UZjPES7jDRnUjF+3KKcouS+xtbtHv6+BG1uE613LmKj2rt722/N7zXhazhNNFr/ANgxVr9zLycW/RO5T42lKErSjKLXBpxa8mUzEtcTE+Hf5XidpJo6vAV9lxnw4+D3/XyPnPZfF3Wyd3l7vCxLDLNljTsAR8vq7VOL6WfitH8iQaFIAAAAAFFnM7ztyL05zM5e3LzA+fdt8S7qK1b0S4tvRI7TsfkscLh4x0237VSX3pvf5LcuiORlQ77MaUXqoXqNfw7v9TifSIaIrwRzNluSeIhmmZd4aZTNTmaNqkiVQxcyM6g7wbG6c7nNdosDKzqUnaa3Pg+j6F86hoxEdpMqyVi0aSrPbO3C5X2vpzexV/dTTs1LddaOz4l/QxneNRp+1J7kuJ847d5f3WI2krKau/Fb/hY+i/8AT/IP2TDqpVv31WKk07/uoPWNNJ7nub66cDLTfzPDRetdbh0WGwkaavK0pf6Y+C/MyqV2RamMve3BX1aXL6mn9pX3vho/iR/z8MTqJQ9C88psa7NGIwkZawSjLppGXiuD6mCn/fgbYSNVMlMkccqprNZ5U06zu4vTg1x8GZ0t1louHJErOcNeLqQ96K9pfeiuPivkUuHxbfAy589On++V+PFbLHtX1GRhmGAp14bFaCmuF/ej1i96fgR8PiXfVE+lUTJYOtw5eIlC+G9OZfP5ZVLB4lQu5U56wm9L23xduK09TuMqejNXaDBqdFvjC04vinHf6x2l5m/K1on0LYr234ctbury6DI5+xJcpP0aT+dyyKjI37VRfwP12voW5cqAAAAAA5rMV7c/FnSnPZrD95LqBx+TR/8AYVG+FJL1l/Q7faOMwa2cc/xUv5ZL/kdpDWCZHD4TyTy1TmaJzPajI8pFqtk5nm31NLYRGZdSYSNqiRoMl02Q7ndOdzHII4nE0dtXhTn3k+TUVpF9HLZT6XL7G178dDZP2Yt8ZfJbkc/jajk5KNlrst6uUtFdJ/ZR431DqOz2R/1u6fH3cyYnHKo7JNJNWe5NrW74vpuPG/1+vI8jRUUkgpHiTNpndpbuPhsjiHDW1+vB33eJY4erferctb369Cr2E2ntRT4bW933pEmlJR3W8tzNfSdRbFfe+FObHFqrSMjm8dQjTm4p2jviuNnwXndeR0EGVnaGjpCfJuPrqvkz2PqmGMvT90fHP9snSX7cmvyhUZcnLTdcsMPWfH+hW4dX3EuEtUnpy43PnMczSdw9G8RK4ttRa5pr1RGyJXpQf4I/I34edk/C/wADzJaezRpr8Efkj6zBk9StZePevbuFnkfv1PCn85lwVWRR1qPrFeiv/uLU1KgAAAAAKbOYe0nzRckHN6V4X5M7A4TNYbGIpVOblB+EldfFI6vBVLwKPtDhHOk9n3laUeko6p+qN+RY1ThGS+0t3LmvFMhSdWmEp5iJTK28j1CVXRGqInKDWLntj1QIusqbJMXuXNpeppjE2Upe3HxIWThjmdXZUnuUYu2uui08ClwNL2Y3vzbu7Sf1JGb4luey9q2qaX2tePwIrxkIKzbVul/hwPk+qyd2aZ/D1sVJika+W2tF3cbcfPogocJLVGqVeL1u9Fa9pK2vXiY0Zy0bTvwT1K4tG9p6nTdKKfNLToe0ql0m+jS6cEa6tbZW1xb0tz5+R7QbfiRid34Jj28rihuVzVnML0ZdHF/G35m+mrJDGK9Oa/C/grn1uSu+nmv6T/DyK21kif1c7hItN79fImxhfRpv9biPhVp4adF4EzDRb9qLtbjvZ8pXnUPXtKRNtRmra7DS5XloviyzhDZh4K3oQcJHak+KWyvNa/midi72UVvdkvFn03QVn09y8vPPuWGS07Ur/ecpfGy+CRPMKNNRiorckl6KxmbmcAAAAADGpC6afEyAHNVaW+D4XOawsv2eu6T0jNuUOSlvlDz3+p22bULNVF4P6nOdocuVWF46NWaa3xa1TRDJE63CVJjxKxpzujCcSkyTNdu8J+zVh7y5/jj0fwLtTuSraLQ5as1nUtdjI9sepHdIh5hdaseik/hb8z2ZjgH+8f8ABL5xIT90JV8NOLSVSV1q1p48SunC7abVtfBfAtcxouSvHetxUd6pu3uzXB7m1yPmvqOGaZJ44nl6nTX7qtdNSm/Zj7L59OJ46je09pbK3fZ2ueu8zmnCNo+89F0/Ea40L2XBWb6v6aXPNmZ8NfHljtbcr2skrRW7zLHB09fDf48iPRjfSGvOXBfVlpQpqKsv11PW+m9HNrd9vDH1WaIjthuieY12pVH+Cf8AKz2JrzF/up8bq3rp+Z7+X/Xb9pedTm0fuocK4KV02720b0vzsWsmlGy0b0XTq0VMcFK8XFqFn7V/auuiW4tcvpSqTUpe7HRdZHzfSdHktbmOHqZ8tY8StsBQUYpcvXxZJwFPbq7XCH8z3fn8DVXlZbK1b06tstcDh+7go8d7fNvf+uh9PSsVrqHk2nc7SAAScAAAAAAAAYzgmmnuZRVqOxJwlue580X5oxeHU42e/g+TA+ddpslldVaTcZx1jJb106roQ8o7Vq/dYq1Kpu2t1Kfg3ufRna1qdrwmjke0fZyM02kZ70mk91V1bRaO2zo6dZPibFI+VU6uLwjtSm9lfYl7cPJPVeTROp9uqyVpUYN81JxXpZnY6iPknp5+H0OrMr8JmlOOKhScvamppLlaLlry92xwuL7XV6itHZprprL1f0K7BYqVOrGsntSjOM9XrJp3s313EfU5TjDOuX2SZAxeBjPeteZOhUjOMZwd4zipRfSSujBl2TFXJGrRuFFb2pO4VTy6XCpKy3GcMuX2pSl4t29CwPDNHQ4KzvtWz1OSflhCmlolY2I8MkjTEKZllFEbMmlFLm/gv62JcEUlfEd7UdvdWifO29rz4i86h2kblvo09p2W7i+XRdS6oRUFysQsJFJFngsI6j2pe6v9XTwFK/Ltpb8sw133kv8AKv8AcWYSBNAAAAAAAAAAAAAAaMXhY1FZ7+D4opcRQcXszWnPgzoTGpTUlaSugOFzLJIz1ijkcy7PW4H1TEZdKOsNVy4r6lfVoxlpJWZTfDFvC2mWavj9fK5RIsqMkfWMVkMJbrFNi+zHJGecV4XxmrKP2Az5W/ZKrtq3Rk92urpet2vFrkdlOJ88xfZ9rVX/ADOgybtE0lTxd7rRVbXv/wDRc/xevMuxZde2yrJj3zV0DPDbG0kpRaknuae1F+DR5sF8qGtGyMT3Ztq/oiNXxL3Q9foc2aR82xjX7qn7z95/cT4eLNGAwtifgsqlLh4v6s6HBZZGGr1fwRCKTM7sn3ajUIeX5a3Zz0XLi/oi5StotD0FqAAAAAAAAAAAAAAAAAAABrrUIy95J/P1NgArqmWfclbo/qRp4Sovs38LMugBzNfDN74P0Kyvlab9xHcg5NYny7EzDicLl8o+4nH+F2v42J8MHXf3vS3xOnA7Yg2oqWSzfvy9dX+vMsMPldOPDa8d3p9SaBpx4lbcegHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "Eggs",
-          "quantity": "5"
-        }
-      ],
-      "inst": "Take water and put it to boil."
-    },
-    {
-      "id": 8,
-      "name": "soup",
-      "author": "Dibya",
-      "desc": "jdvshicoj",
-      "country": "Germany",
-      "flag":"https://flagcdn.com/nc.svg",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "34 gm",
-          "quantity": "sbtd"
-        },
-        {
-          "id": 2,
-          "incName": "5gm",
-          "quantity": "kjdbvskj"
-        }
-      ],
-      "inst": "dfjyvscbhiljnfdsvd db"
-    },
-    {
-      "id": 9,
-      "name": "Dibya",
-      "author": "Dibya",
-      "desc": "vghv",
-      "country": "Algeria",
-      "flag":"https://flagcdn.com/nc.svg",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "rdftgy",
-          "quantity": "43"
-        }
-      ],
-      "inst": "fgbhnj"
-    },
-    {
-      "id": 10,
-      "name": "Dibya",
-      "author": "Alex",
-      "desc": "rfghnj",
-      "country": "Nepal",
-      "flag":"https://flagcdn.com/nc.svg",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "xdcfgvhb",
-          "quantity": "56789"
-        }
-      ],
-      "inst": "cfvghbjn"
-    },
-    {
-      "id": 11,
-      "name": "fcgvh",
-      "author": "zdxfcgvh",
-      "desc": "xdcfgvhb",
-      "country": "Ethiopia",
-
-      "flag":"https://flagcdn.com/nc.svg",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "xdfcgvh",
-          "quantity": "45"
-        }
-      ],
-      "inst": "dxfcgvhjb"
-    },
-    {
-      "id": 12,
-      "name": "xdfcgvhb",
-      "author": "sxdcfgvhbj",
-      "desc": "xcfgvhbjnk",
-      "country": "Japan",
-      "flag":"https://flagcdn.com/nc.svg",
-      
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "xdcfgvh",
-          "quantity": "11"
-        }
-      ],
-      "inst": "cyvubhijnk"
-    },
-    {
-      "id": 13,
-      "name": "edxtcfgyvhbjn",
-      "author": "xdfcgvhjbkn",
-      "desc": "dcfgvhbjnkml",
-      "country": "Nepal",
-      "flag": "https://flagcdn.com/np.svg",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "xtcfyvgubhjn",
-          "quantity": "567"
-        }
-      ],
-      "inst": "sedrtfyguhij"
-    },
-    {
-      "id": 14,
-      "name": "xcfgvh",
-      "author": "BCH",
-      "desc": "xdfcghvjbkn",
-      "country": "",
-      "flag": "https://flagcdn.com/np.svg",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "dfcghvbj",
-          "quantity": "1"
-        }
-      ],
-      "inst": "sdxcfyvgbhjnk"
-    },
-    {
-      "id": 15,
-      "name": "cfgvhbjn",
-      "author": "dfcgvhb",
-      "desc": "xdfcgvhbjn",
-      "country": "Afghanistan",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "tfgh",
-          "quantity": "2"
-        }
-      ],
-      "inst": "xdcfgvhbjn"
     }
+    
   ]
 }

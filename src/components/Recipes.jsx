@@ -51,11 +51,9 @@ const searchedRecipes = recipes.filter((recipe) => {
 
     return (
 
-        <div className={classes.recipecontainer}>
+        <div className={classes.recipeContainer}>
 
-<label htmlFor='search-recipes'>Search for recipe:</label>
-
-<input type="text" name='search-recipes' id='search-recipes' onChange={findHandler}/>
+<input type="text" name='search-recipes' placeholder='Search Your Fav Recipe' id='search-recipes'  onChange={findHandler}/>
 
             <h1>Our Recipes</h1>
             
