@@ -100,6 +100,23 @@
         }
       ],
       "inst": "Take 2 cups of water and put egg inside, let it cook for 10 mins. Ready to serve."
+    },
+    {
+      "id": 4,
+      "name": "Dibya",
+      "author": "Dibya",
+      "desc": "s kjc",
+      "country": "Åland Islands",
+      "flag": "https://flagcdn.com/ax.svg",
+      "img": "https://images.unsplash.com/photo-1544376543-c3dd0266dc86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2MwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "vwe",
+          "quantity": "11"
+        }
+      ],
+      "inst": " jcaknj"
     }
   ]
 }

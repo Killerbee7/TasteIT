@@ -57,6 +57,7 @@ const RecipeForm = () => {
 
   const submitData = (e) => {
     axios.post("http://localhost:3001/recipes", data);
+    alert("Your recipe has been added, access it from browse recipe.")
   };
 
   return (
