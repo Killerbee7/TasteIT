@@ -65,11 +65,8 @@ tr:nth-child(even) {
   outline: var(--b) solid #0000;
   outline-offset: .6em;
   font-size: 16px;
-
   border: 0;
-
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 

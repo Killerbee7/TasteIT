@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import classes from "./RecipeForm.module.css";
 
+
+
 const RecipeForm = () => {
   const [data, setData] = useState({
     id: "",
@@ -56,6 +58,7 @@ const RecipeForm = () => {
   };
 
   const submitData = (e) => {
+    
     axios.post("http://localhost:3001/recipes", data);
     alert("Your recipe has been added, access it from browse recipe.");
   };
@@ -163,9 +166,11 @@ const RecipeForm = () => {
           <button type="submit" value="Add recipe">
             Submit
           </button>
+        
           <button type="reset" value="Clear Form">
             Clear Form
           </button>
+          
         </div>
       </form>
     </div>

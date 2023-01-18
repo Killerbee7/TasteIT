@@ -1,8 +1,7 @@
 .container{
     display: inline-grid;
-    
-  grid-template-columns: auto auto auto;
-  padding: 20px 50px;
+    grid-template-columns: auto auto auto;
+    padding: 20px 50px;
   
 }
 
@@ -16,9 +15,7 @@
   
 }
 
-
 .flagImage img{
-  
   width: 80px;
   position: absolute;
   top: 55%;
@@ -61,16 +58,6 @@
     margin-top: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* CSS */
 .button {
   background-color: transparent;
@@ -86,7 +73,6 @@
   position: relative;
   text-decoration: none;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 

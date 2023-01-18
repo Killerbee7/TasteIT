@@ -1,7 +1,6 @@
 .homeVideo {
   position: fixed;
   z-index:-1;
-  top: 0;
   left: 0;
   top: 80px;
   min-width: 100%; 
@@ -11,8 +10,7 @@
 
 
 .gridHome{
-  margin-top: 5%;
-  position: relative;
+    margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;

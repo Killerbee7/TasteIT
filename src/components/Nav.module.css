@@ -3,13 +3,12 @@
   color: white;
   margin: 0;
   align-items: center;
-}
-.nav ul {
   display: flex;
   justify-content: space-between;
   margin: 2rem;
   list-style-type: none;
 }
+
 
 .nav ul li a {
   text-decoration: none;
@@ -23,8 +22,6 @@ select,
 textarea,
 input,
 button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background-color: transparent;
   border: none;
@@ -39,10 +36,6 @@ textarea {
   border: 2px solid #333;
   background-color: white;
   border-radius: 0.25rem;
-}
-input,
-select,
-textarea {
   font: 1.25rem / 1.5 sans-serif;
   display: block;
   box-sizing: border-box;
