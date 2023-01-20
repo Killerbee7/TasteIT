@@ -101,6 +101,7 @@ const RecipeForm = () => {
         <div>
           <label htmlFor="country">Recipe is from:</label>
           <select name="country" id="country" onChange={changeCountry}>
+            
             <option value="selected" required>
               Choose a Country
             </option>

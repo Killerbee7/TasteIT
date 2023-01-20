@@ -1,5 +1,4 @@
 .header{
-    
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -7,6 +6,8 @@
     background-color: rgb(0, 0, 0);
     color: white;
     padding-left: 1rem;
+    height: 8vh;
+    width: auto;
 
     
 }
@@ -16,3 +17,4 @@
     margin-left: 2rem;
     
 }
+

@@ -34,6 +34,6 @@ const RecipeCard = ({ id, flag, name, author, image, desc }) => {
   );
 };
 
-/* <Link to={`${id}`}>see more</Link> */
+
 
 export default RecipeCard;

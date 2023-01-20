@@ -1,34 +1,32 @@
-.homeVideo {
-  position: fixed;
-  z-index:-1;
-  left: 0;
-  top: 80px;
-  min-width: 100%; 
-  min-height: 10vh;
-  
+.homeContainer {
+  position: relative;
+  width: 100vw;
+  height:90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
+
+.homeContainer video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
 .gridHome{
-    margin-top: 5%;
+  margin: 15% 5% 10% 40%;
+  position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    position: absolute;
-    margin-left: 35%;
   
 }
 
-@media only screen and (max-width: 600px) {
-  .gridHome {
-    display: flex;
-    flex-direction: column;
-  }
-  .card{
-    padding: 20px;
-  }
-}
+
 
 
 .wrapper {
@@ -100,4 +98,27 @@ h1 {
   will-change: transform;
   transition: .3s transform cubic-bezier(.25,.46,.45,1);
   
+}
+
+@media only screen and (max-width: 600px) {
+  .gridHome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+  }
+  .card {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+   
+  }
+  .homeContainer video {
+    margin-top: 8vh;
+    height: 100vh;
+    width: 100vh;
+    object-fit: fill;
+  
+  }
 }

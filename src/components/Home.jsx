@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Home.module.css";
-import videoHome from "../video/coverr-flipping-chicken-on-grill-9341-1080p.mp4";
+import videoHome from "../video/video.mp4";
 
 const Home = () => {
   return (
-    <div>
-      <div>
-        <video className={classes.homeVideo} autoPlay muted loop id="myVideo">
-          <source autoPlay loop muted src={videoHome} type="video/mp4" />
-        </video>
-      </div>
+    <div className={classes.homeContainer}>
+      <video className={classes.homeVideo} autoPlay muted loop id="myVideo">
+        <source autoPlay loop muted src={videoHome} type="video/mp4" />
+      </video>
       <div className={classes.gridHome}>
         <div className={classes.wrapper}>
           <div className={classes.card}>

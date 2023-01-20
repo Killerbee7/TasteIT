@@ -5,7 +5,6 @@ const Main = () => {
     return (
         <main>
          <Outlet/>   
-            
         </main>
     );
 };
