@@ -104,11 +104,11 @@ h1 {
   .gridHome {
     display: flex;
     flex-direction: column;
-    margin-top: 50%;
+    margin-top: 10%;
   }
   .card {
-    height: 100px;
-    width: 200px;
+    height: 80px;
+    width: 150px;
     padding: 10px;
     text-transform: uppercase;
     backface-visibility: hidden;
@@ -120,5 +120,9 @@ h1 {
     width: 100vh;
     object-fit: fill;
   
+  }
+  .card a {
+
+    font-size: 20px;
   }
 }

@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: 15px;
     padding-bottom: 5px;
     background-color: rgb(0, 0, 0);

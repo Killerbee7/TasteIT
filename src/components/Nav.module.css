@@ -43,3 +43,16 @@ textarea {
   width: 100%;
   padding: 0.5rem 0.75rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav ul li a {
+    margin-left: 0.7rem;
+    font-size: 10px;
+    
+  }
+
+  .nav ul{
+    padding: 0;
+  }
+  
+}
