@@ -139,6 +139,28 @@
         }
       ],
       "inst": "Cook and eat"
+    },
+    {
+      "id": 6,
+      "name": "nishan",
+      "author": "nishan",
+      "desc": "hole is a wall",
+      "country": "Kenya",
+      "flag": "https://flagcdn.com/ke.svg",
+      "img": "https://images.unsplash.com/photo-1617611647086-bccca8c2cf84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "paani",
+          "quantity": "1l"
+        },
+        {
+          "id": 2,
+          "incName": "dudh",
+          "quantity": "2l"
+        }
+      ],
+      "inst": "booom"
     }
   ]
 }
