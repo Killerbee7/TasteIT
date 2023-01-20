@@ -31,7 +31,7 @@ const SeeMore = () => {
 
   return (
     <div>
-      <div>
+      <div className={classes.name}>
         <h1>
           {data.name}{" "}
           <span>
@@ -42,9 +42,11 @@ const SeeMore = () => {
       <div className={classes.recipeSingle}>
         <div className={classes.image}>
           <img src={data.img} alt={data.name} />
+          <div>
           <button className={classes.buttonBack} onClick={() => navigate(-1)}>
             Back
           </button>
+          </div>
         </div>
 
         <div className={classes.details}>

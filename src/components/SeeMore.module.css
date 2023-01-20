@@ -1,20 +1,26 @@
 .recipeSingle {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    column-gap: 5px;
     
 }
+.details h2{
+  margin-top: 0;
+}
 
+.name h1{
+  margin-left: 10%;
+}
 
 .image img{
     object-fit: cover;
-    width: 600px;
+    max-width: 600px;
 }
-@media only screen and (max-width: 600px) {
-  .image img {
-    width: 200px;
-  }
-}
+
 
 .description p{
   margin-top: 10px;
@@ -45,6 +51,8 @@ tr:nth-child(even) {
 
   .instruction{
     margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
   }
 
  
@@ -72,7 +80,7 @@ tr:nth-child(even) {
 
 .buttonBack:hover,
 .buttonBack:focus-visible{
-  --_p: 0px;
+  --_p: 1px;
   outline-color: var(--color);
   outline-offset: .05em;
 }
@@ -80,5 +88,11 @@ tr:nth-child(even) {
 .buttonBack:active {
   background: var(--color);
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .image img {
+    width: 200px;
+  }
 }
   
