@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-
 import axios from "axios";
-
-import RecipeCard from "../components/RecipeCard";
+import RecipeCard from "./RecipeCard";
 
 import classes from "./Recipes.module.css";
 
