@@ -8,6 +8,7 @@ test("recipe name should be rendered", ()=>{
   render(<App/>)
   const userInputEl = screen.getByText(/About Taste IT/i);
   expect(userInputEl).toBeInTheDocument()
+  
 })
 
 test("get by label", ()=>{
